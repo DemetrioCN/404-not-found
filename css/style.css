@@ -72,13 +72,18 @@ header .error {
     margin-left: 10px;
     margin-top: 40px;
     font-family: 'Space Mono', monospace;
-    font-size: 1.4rem;
+    font-size: 1.8rem;
     font-weight: normal;
     font-style: normal;
     letter-spacing: -0.035em;
     line-height: 2.1rem;
+    border: solid 2px white;
+    border-radius: 5%;
     background-color: var(--gray-1);
     color: var(--white);
+}
+.main--text button:hover {
+    background-color: #f5cb5c;
 }
 .footer--text {
     width: 100%;
