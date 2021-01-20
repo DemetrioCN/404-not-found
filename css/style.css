@@ -94,3 +94,15 @@ header .error {
     line-height: 1.7rem;
     color: var(--gray-1);
 }
+.footer--text a{
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 1.7rem;
+    color: var(--gray-1);
+}
+.footer--text a:hover {
+    text-decoration: underline;
+}
