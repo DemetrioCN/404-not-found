@@ -1,12 +1,13 @@
 :root {
-    --gray-1: #333333;
-    --gray-2: #4F4F4F;
+    --gray-p: #adb5bd;
     --white: #FFFFFF;
+    --back: #3a4151;
 }
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    background-color: var(--back);
 }
 html {
     font-size: 62.5%;
@@ -27,7 +28,7 @@ header .error {
     font-weight: 700;
     line-height: 2.518rem;
     letter-spacing: -0.08em;
-    color: var(--gray-1);
+    color: var(--white);
 }
 .main--img {
     width: 100%;
@@ -51,7 +52,7 @@ header .error {
     line-height: 7.109rem;
     letter-spacing: -0.035em;
     margin-left: 10px;
-    color: var(--gray-2);
+    color: var(--white);
 }
 .main--text p {
     width: 100%;
@@ -64,7 +65,7 @@ header .error {
     line-height: 2.7rem;
     font-style: normal;
     letter-spacing: -0.035em;
-    color: var(--gray-2);
+    color: var(--gray-p);
 }
 .main--text button {
     width: 216px;
@@ -72,13 +73,17 @@ header .error {
     margin-left: 10px;
     margin-top: 40px;
     font-family: 'Space Mono', monospace;
-    font-size: 1.4rem;
+    font-size: 1.8rem;
     font-weight: normal;
     font-style: normal;
     letter-spacing: -0.035em;
     line-height: 2.1rem;
-    background-color: var(--gray-1);
+    border: solid 2px wheat;
+    border-radius: 5%;
     color: var(--white);
+}
+.main--text button:hover {
+    background-color: #4a4e69;
 }
 .footer--text {
     width: 100%;
@@ -87,12 +92,6 @@ header .error {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1.4rem;
-    font-weight: 600;
-    font-style: normal;
-    line-height: 1.7rem;
-    color: var(--gray-1);
 }
 .footer--text a{
     text-decoration: none;
@@ -101,7 +100,7 @@ header .error {
     font-weight: 600;
     font-style: normal;
     line-height: 1.7rem;
-    color: var(--gray-1);
+    color: var(--gray-p);
 }
 .footer--text a:hover {
     text-decoration: underline;
